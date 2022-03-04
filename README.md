@@ -5,7 +5,7 @@ This is a solution to the [Pod request access landing page challenge on Frontend
 ## Table of contents
 
 - [The challenge](#the-challenge)
-- [Screenshot](#screenshot)
+
 - [Links](#links)
 
 - [Built with](#built-with)
@@ -24,16 +24,10 @@ Users should be able to:
   - The `Email address` field is empty should show "Oops! Please add your email"
   - The email is not formatted correctly should show "Oops! Please check your email"
 
-### Screenshot
-
-./screenshot-mobile.png
-./screenshot-tablet.png
-./screenshot-desktop.png
-
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
-- Live Site URL: (https://your-live-site-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-landing-page-using-tailwind-css-and-css-grid-iYzdsD4QJ)
+- Live Site URL: (https://silly-torvalds-b88845.netlify.app)
 
 ### Built with
 
