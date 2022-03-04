@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Pod request access landing page</title>
+  </head>
+  <!-- Global Classes and Mobile Background Image -->
+  <body
+    class="bg-rich-black font-chivo tablet:bg-none h-screen bg-[url('/img/mobile/image-host.jpg')] bg-cover bg-no-repeat bg-blend-overlay"
+  >
+    <!-- Desktop Grid Options -->
+    <div class="tablet:grid tablet:grid-rows-7 tablet:px-0 h-screen px-8">
+      <!-- Main Content -->
+
+      <!-- Tablet Grid Options -->
+      <main
+        class="desktop:row-span-5 desktop:col-span-12 desktop:row-start-2 desktop:col-start-2 tablet:grid desktop:grid-cols-12 desktop:relative tablet:grid-cols-6 tablet:grid-rows-4 tablet:h-screen desktop:h-auto"
+      >
+        <!-- Logo -->
+        <div
+          class="tablet:col-span-2 tablet:row-span-2 tablet:h-auto tablet:pt-12 tablet:items-start tablet:pl-10 desktop:col-span-4 desktop:p-0 grid h-min items-center justify-items-start pt-16"
+        >
+          <img
+            src="/img/desktop/logo.svg"
+            alt="logo"
+            class="desktop:translate-y-[-50%]"
+          />
+        </div>
+        <!-- Background Image for Tablet -->
+        <div
+          class="tablet:block tablet:col-span-8 tablet:row-span-3 tablet:bg-[url('/img/tablet/image-host.jpg')] tablet:row-start-1 tablet:col-start-3 desktop:hidden hidden bg-cover bg-no-repeat"
+        ></div>
+
+        <!-- Background Image for Desktop -->
+        <div
+          class="desktop:block desktop:row-span-5 desktop:col-span-8 desktop:bg-[url('/img/desktop/image-host.jpg')] desktop:bg-cover desktop:bg-no-repeat hidden"
+        ></div>
+
+        <!-- Main Content Wrapper -->
+        <div
+          class="desktop:row-span-3 desktop:row-start-2 tablet:pl-10 tablet:pb-16 desktop:m-0 desktop:p-0 desktop:pr-14 tablet:absolute tablet:bg-rich-black tablet:grid desktop:max-w-[50%] tablet:top-1/4 tablet:max-w-[90%] desktop:top-0"
+        >
+          <h1
+            class="text-aquamarine text-title-mobile tablet:text-title-tablet tablet:text-left tablet:mt-24 mt-14 text-center font-light uppercase"
+          >
+            Publish your podcasts
+            <span class="inline-block text-white">everywhere.</span>
+          </h1>
+          <p
+            class="text-periwinkle-crayola text-body-mobile tablet:text-body-tablet tablet:text-left tablet:max-w-md tablet:mt-8 mt-4 text-center font-light"
+          >
+            Upload your audio to Pod with a single click. We’ll then distribute
+            your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket
+            Casts and more!
+          </p>
+          <!-- Social Logos -->
+          <section
+            class="desktop:grid tablet:max-w-[90%] tablet:gap-x-0 order-last mt-8 grid grid-cols-4 items-center justify-items-start gap-x-4"
+          >
+            <img
+              src="/img/desktop/spotify.svg"
+              alt="spotify"
+              class="opacity-50"
+            />
+
+            <img
+              src="/img/desktop/apple-podcast.svg"
+              alt="apple podcasts"
+              class="opacity-50"
+            />
+
+            <img
+              src="/img/desktop/google-podcasts.svg"
+              alt="google podcasts"
+              class="opacity-50"
+            />
+
+            <img
+              src="/img/desktop/pocket-casts.svg"
+              alt="pocket casts"
+              class="opacity-50"
+            />
+          </section>
+
+          <!-- Form -->
+          <div>
+            <div
+              class="tablet:bg-space-cadet tablet:p-2 mt-12 w-fit rounded-full"
+            >
+              <form action="" class="tablet:flex access-form" novalidate>
+                <input
+                  type="email"
+                  id="mail"
+                  name="email"
+                  placeholder="Email address"
+                  class="bg-space-cadet focus:ring-aquamarine tablet:mr-2 rounded-full border-0 py-2 pl-8 pr-28 text-white focus:ring-1"
+                  required
+                />
+
+                <input
+                  type="submit"
+                  for="email"
+                  id="submit"
+                  value="Request Access"
+                  class="bg-aquamarine text-rich-black hover:bg-magic-mint tablet:mt-0 tablet:py-3 mt-3 inline-block w-full cursor-pointer rounded-full py-2 px-7 font-normal"
+                />
+              </form>
+            </div>
+            <p class="error text-tart-orange invisible mt-2 ml-9">
+              Oops! Please check your email
+            </p>
+          </div>
+        </div>
+        <!-- Desktop Dots -->
+        <div class="desktop:block absolute bottom-0 right-0 hidden h-fit">
+          <img
+            src="/img/desktop/bg-pattern-dots.svg"
+            alt="pattern-dots"
+            class="translate-y-[50%]"
+          />
+        </div>
+      </main>
+      <!-- Footer -->
+      <footer
+        class="tablet:bg-rich-black tablet:col-span-full tablet:row-span-1 tablet:row-start-7 tablet:pl-10 tablet:grid desktop:hidden tablet:items-end hidden"
+      >
+        <img src="/img/desktop/bg-pattern-dots.svg" alt="pattern-dots" />
+      </footer>
+    </div>
+    <script src="/js/validation.js"></script>
+  </body>
+</html>
